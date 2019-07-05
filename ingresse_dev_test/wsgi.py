@@ -3,6 +3,6 @@ import os
 from dj_static import Cling
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ingrasse_dev_test.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ingresse_dev_test.settings')
 
 application = Cling(get_wsgi_application())

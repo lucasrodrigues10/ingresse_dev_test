@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ingrasse_dev_test.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ingresse_dev_test.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

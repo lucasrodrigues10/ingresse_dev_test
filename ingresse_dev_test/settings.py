@@ -62,7 +62,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ingrasse_dev_test.wsgi.application'
+WSGI_APPLICATION = 'ingresse_dev_test.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
