@@ -2,7 +2,8 @@
 
 The purpose of this project is to create an API that manages information of an candidate looking 
 for new jobs.  <br>
-The candidate has an can apply to multiple companies and receive multiple feedbacks. <br>
+The candidate has an localization and can apply to multiple 
+companies and receive multiple feedbacks. <br>
 The database used for this project is PostgreSQL.
 
 ---
@@ -14,10 +15,31 @@ The database used for this project is PostgreSQL.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+## Usage
 
+```
+# List all candidates
+https://ingresse-dev-test.herokuapp.com/candidates/
+```
+```
+# Search candidate by the name
+https://ingresse-dev-test.herokuapp.com/candidates/?search=lucas
+```
+
+```
+# Procurar empresa pelo ID
+https://ingresse-dev-test.herokuapp.com/companies/2/
+```
+
+```sh
+# Super user access
+https://ingresse-dev-test.herokuapp.com/admin/ 
+User: admin 
+Pass: 123 
+```
 #### An API documentation generator for thi API
 
-Full documentation: #
+Full documentation: (to implement)
 
 
 ## Building
@@ -43,6 +65,9 @@ $ git push heroku master:master
 $ heroku open
 ```
 
+More information:
+https://github.com/Gpzim98/django-heroku/blob/master/README.md
+
 ## Requirements
 * Django 2.2+
 * Django REST framework 3.5.1+
@@ -50,7 +75,6 @@ $ heroku open
 
 ## Testing
 
-- Run `$ tox` to execute the test suite against all supported environments.
 - Run `./runtests.py` to run the test suite within the current environment.
 
 ## Bugs & Contributions
