@@ -15,7 +15,7 @@ SECRET_KEY = config('SECRET_KEY')  # '%v=5wj0g1w3gs)6ju!)o*c0vo@0275r@_oe!68wmso
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', 'ingresse-dev-test.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'ingresse-dev-test.herokuapp.com']
 
 # Application definition
 
@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ingrasse_dev_test.urls'
+ROOT_URLCONF = 'ingresse_dev_test.urls'
 
 TEMPLATES = [
     {
