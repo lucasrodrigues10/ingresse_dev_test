@@ -10,7 +10,6 @@ The database used for this project is PostgreSQL.
 
 [![build-status-badge]][build-status]
 [![codecov](https://codecov.io/gh/marcgibbons/django-rest-swagger/branch/master/graph/badge.svg)](https://codecov.io/gh/marcgibbons/django-rest-swagger)
-[![pypi-version]][pypi]
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
